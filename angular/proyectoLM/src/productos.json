@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "nombre": "Guitarra Eléctrica Fender",
+        "descripcion": "Guitarra eléctrica de alta calidad con pastillas de bobina simple y cuerpo de aliso. Ideal para rock y blues.",
+        "precio": 500.00,
+        "categoria": "Intrumento de cuerda";
+        "imagen": "/img/"
+    }
+]

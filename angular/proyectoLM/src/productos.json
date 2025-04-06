@@ -4,7 +4,50 @@
         "nombre": "Guitarra Eléctrica Fender",
         "descripcion": "Guitarra eléctrica de alta calidad con pastillas de bobina simple y cuerpo de aliso. Ideal para rock y blues.",
         "precio": 500.00,
-        "categoria": "Intrumento de cuerda";
-        "imagen": "/img/"
+        "categoria": "Intrumento de cuerda",
+        "imagen": "assets/img/imagen de guitarra fender.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Bajo Eléctrico Ibanez",
+        "descripcion": "Bajo eléctrico de 4 cuerdas con pastillas activas y cuerpo de fresno. Perfecto para rock y funk.",
+        "precio": 600.00,
+        "categoria": "Intrumento de cuerda",
+        "imagen": "assets/img/imagen de bajo ibanez.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Batería Acústica Pearl",
+        "descripcion": "Batería acustica completa con platillos y baquetas. Ideal para rock y pop.",
+        "precio": 700.00,
+        "categoria": "Percusión",
+        "imagen": "assets/img/imagen de bateria pearl.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Teclado Yamaha P-125",
+        "descripcion": "Teclado digital con 88 teclas y sonido de piano realista. Ideal para pianistas.",
+        "precio": 800.00,
+        "categoria": "Teclado",
+        "imagen": "assets/img/imagen de teclado yamaha.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Saxofón Alto Yamaha YAS-280",
+        "descripcion": "Saxofón alto de calidad profesional con boquilla y estuche incluido. Ideal para jazz y música clásica.",
+        "precio": 1100.00,
+        "categoria": "Instrumiento de viento",
+        "imagen": "assets/img/imagen de saxofon yamaha.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Micrófono Shure SM58",
+        "descripcion": "Micrófono dinámico de mano, ideal para voces en vivo y grabaciones.",
+        "precio": 100.00,
+        "categoria": "Accesorios",
+        "imagen": "assets/img/imagen de microfono shure.jpg"
+    },
+    {
+        
     }
 ]

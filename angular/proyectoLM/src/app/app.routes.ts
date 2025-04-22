@@ -6,7 +6,6 @@ import { PageNotFoundComponent } from './componentes/page-not-found/page-not-fou
 import { CatalogoComponent } from './componentes/catalogo/catalogo.component';
 import { LoginComponent } from './componentes/login/login.component';
 
-
 export const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},

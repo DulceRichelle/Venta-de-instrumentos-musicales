@@ -1,3 +1,4 @@
+import { ProductoDetalleComponent } from './componentes/producto-detalle/producto-detalle.component';
 import { Routes } from '@angular/router';
 import { HomeComponent } from './componentes/home/home.component';
 import { AboutComponent } from './componentes/about/about.component';

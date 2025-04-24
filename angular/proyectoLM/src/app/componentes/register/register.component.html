@@ -1,0 +1,3 @@
+<div *ngIf="registerForm.hasError('mismatch') && registerForm.get('confirmPassword')?.touched" class="text-danger">
+    Las contraseñas no coinciden.
+</div>

@@ -1,0 +1,15 @@
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-height: 400px;
+  object-fit: cover;
+}
+
+h2 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+}

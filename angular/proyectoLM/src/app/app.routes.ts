@@ -6,7 +6,7 @@ import { PageNotFoundComponent } from './componentes/page-not-found/page-not-fou
 import { CatalogoComponent } from './componentes/catalogo/catalogo.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { TiendaComponent } from './componentes/tienda/tienda.component';
-import { ProductoComponent } from './components/producto/producto.component';
+import { ProductoComponent } from './componentes/producto/producto.component';
 import { PagoComponent } from './components/pago/pago.component';
 
 export const routes: Routes = [

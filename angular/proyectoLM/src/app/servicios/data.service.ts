@@ -9,7 +9,7 @@ export class DataService {
   constructor(private http: HttpClient) {}
 
   getProductos(): Observable<any[]> {
-    return this.http.get<any[]>('/data/productos.json');
+    return this.http.get<any[]>('data/productos.json');
   }
 }
 

@@ -3,60 +3,60 @@
     "id": 1,
     "nombre": "Guitarra Eléctrica Stratocaster Fender",
     "precio": 240,
-    "imagen": "/images/guitarra-fender.jpg"
+    "imagen": "images/guitarra-fender.jpg"
   },
   {
     "id": 2,
     "nombre": "Bajo Eléctrico Ibanez",
     "precio": 210,
-    "imagen": "/images/bajo-ibanez.jpg"
+    "imagen": "images/bajo-ibanez.jpg"
   },
   {
     "id": 3,
     "nombre": "Guitarra SG Gibson",
     "precio": 250,
-    "imagen": "/images/Gibson-SG-guitarra.jpg"
+    "imagen": "images/Gibson-SG-guitarra.jpg"
   },
   {
     "id": 4,
     "nombre": "Bateria Pearl",
     "precio": 850,
-    "imagen": "/images/bateria-pearl.jpg"
+    "imagen": "images/bateria-pearl.jpg"
   },
   {
     "id": 5,
     "nombre": "Microfono Shure",
     "precio": 115,
-    "imagen": "/images/microfono-shure.jpg"
+    "imagen": "images/microfono-shure.jpg"
   },
   {
     "id": 6,
     "nombre": "Teclado Yamaha",
     "precio": 300,
-    "imagen": "/images/teclado-yamaha.jpg"
+    "imagen": "images/teclado-yamaha.jpg"
   },
   {
     "id": 7,
     "nombre": "Guitarra Acustica",
     "precio": 150,
-    "imagen": "/images/guitarra-acustica.jpg"
+    "imagen": "images/guitarra-acustica.jpg"
   },
   {
     "id": 8,
     "nombre": "Bajo Acustico",
     "precio": 180,
-    "imagen": "/images/bajo-acustico.jpg"
+    "imagen": "images/bajo-acustico.jpg"
   },
   {
     "id": 9,
     "nombre": "Bateria Electronica Yamaha",
     "precio": 630,
-    "imagen": "/images/bateria-electrica.jpg"
+    "imagen": "images/bateria-electrica.jpg"
   },
   {
     "id": 10,
     "nombre": "Saxofon Yamaha",
     "precio": 700,
-    "imagen": "/images/saxofon-yamaha.jpg"
+    "imagen": "images/saxofon-yamaha.jpg"
   }
 ]

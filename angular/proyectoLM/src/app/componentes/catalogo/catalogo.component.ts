@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../servicios/data.service';
+import { CommonModule } from '@angular/common';
+
 
 @Component({
+  standalone: true,
+  imports: [CommonModule],
   selector: 'app-catalogo',
   templateUrl: './catalogo.component.html',
   styleUrls: ['./catalogo.component.css']

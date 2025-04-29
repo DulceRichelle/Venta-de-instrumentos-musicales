@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { AuthService } from '../../servicios/auth.service';
 import { Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { ChangeDetectorRef } from '@angular/core';
+
 
 @Component({
   selector: 'app-registro',
@@ -15,7 +17,7 @@ export class RegisterComponent {
   email = '';
   password = '';
 
-  constructor(private auth: AuthService, private router: Router) {}
+  constructor(private auth: AuthService, private router: Router, private cdr: ChangeDetectorRef) {}
 
   registrarse() {
     const exito = this.auth.registrar({ nombre: this.nombre, email: this.email, password: this.password });

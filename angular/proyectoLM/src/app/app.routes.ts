@@ -6,6 +6,8 @@ import { ContactComponent } from './componentes/contact/contact.component';
 import { PageNotFoundComponent } from './componentes/page-not-found/page-not-found.component';
 import { CatalogoComponent } from './componentes/catalogo/catalogo.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { CarritoComponent } from './componentes/carrito/carrito.component';
+import { RegisterComponent } from './componentes/register/register.component';
 
 export const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -14,6 +16,9 @@ export const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'catalogo', component: CatalogoComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'register', component: RegisterComponent},
+  {path: 'producto/:id', component: ProductoDetalleComponent },
+  {path: 'carrito', component: CarritoComponent},
 
   {path: '**', component: PageNotFoundComponent}
 ];

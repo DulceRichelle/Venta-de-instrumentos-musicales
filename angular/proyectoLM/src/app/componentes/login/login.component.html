@@ -1,0 +1,18 @@
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Iniciar Sesión</h2>
+  <form (ngSubmit)="iniciarSesion()">
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input [(ngModel)]="email" name="email" type="email" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+      <label for="password" class="form-label">Contraseña</label>
+      <input [(ngModel)]="password" name="password" type="password" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+  </form>
+
+  <p class="text-center mt-3">¿No tienes una cuenta? <a [routerLink]="/register">Regístrate aquí</a></p>
+</div>

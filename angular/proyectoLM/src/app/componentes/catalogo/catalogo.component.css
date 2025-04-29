@@ -1,0 +1,6 @@
+.imagen-catalogo {
+  height: 200px;
+  object-fit: contain; 
+  background-color: #fff;
+}
+

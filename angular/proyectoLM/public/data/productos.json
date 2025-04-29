@@ -3,60 +3,71 @@
     "id": 1,
     "nombre": "Guitarra Eléctrica Stratocaster Fender",
     "precio": 240,
-    "imagen": "images/guitarra-fender.jpg"
+    "imagen": "images/guitarra-fender.jpg",
+    "descripcion": "Una guitarra eléctrica icónica con un tono brillante, ideal para estilos como el rock, blues y pop."
   },
   {
     "id": 2,
     "nombre": "Bajo Eléctrico Ibanez",
     "precio": 210,
-    "imagen": "images/bajo-ibanez.jpg"
+    "imagen": "images/bajo-ibanez.jpg",
+    "descripcion": "Bajo eléctrico de 4 cuerdas con gran definición de sonido, perfecto para funk, jazz y rock alternativo."
   },
   {
     "id": 3,
     "nombre": "Guitarra SG Gibson",
     "precio": 250,
-    "imagen": "images/Gibson-SG-guitarra.jpg"
+    "imagen": "images/Gibson-SG-Guitarra.jpg",
+    "descripcion": "Guitarra eléctrica de cuerpo liviano y sonido potente, famosa en géneros como hard rock y metal."
   },
   {
     "id": 4,
-    "nombre": "Bateria Pearl",
+    "nombre": "Batería Pearl",
     "precio": 850,
-    "imagen": "images/bateria-pearl.jpg"
+    "imagen": "images/bateria-pearl.jpg",
+    "descripcion": "Set de batería acústica de alta calidad, con cascos resistentes y un sonido profesional en cada golpe."
   },
   {
     "id": 5,
-    "nombre": "Microfono Shure",
+    "nombre": "Micrófono Shure",
     "precio": 115,
-    "imagen": "images/microfono-shure.jpg"
+    "imagen": "images/microfono-shure.jpg",
+    "descripcion": "Micrófono dinámico ideal para presentaciones en vivo y grabaciones, reconocido por su durabilidad y claridad."
   },
   {
     "id": 6,
     "nombre": "Teclado Yamaha",
     "precio": 300,
-    "imagen": "images/teclado-yamaha.jpg"
+    "imagen": "images/teclado-yamaha.jpg",
+    "descripcion": "Teclado electrónico versátil con múltiples sonidos y funciones, perfecto para estudiantes y profesionales."
   },
   {
     "id": 7,
-    "nombre": "Guitarra Acustica",
+    "nombre": "Guitarra Acústica",
     "precio": 150,
-    "imagen": "images/guitarra-acustica.jpg"
+    "imagen": "images/guitarra-acustica.jpg",
+    "descripcion": "Guitarra acústica clásica con excelente resonancia, ideal para principiantes y músicos experimentados."
   },
   {
     "id": 8,
-    "nombre": "Bajo Acustico",
+    "nombre": "Bajo Acústico",
     "precio": 180,
-    "imagen": "images/bajo-acustico.jpg"
+    "imagen": "images/bajo-acustico.jpg",
+    "descripcion": "Bajo acústico de gran volumen y tono cálido, perfecto para actuaciones desenchufadas o acústicas."
   },
   {
     "id": 9,
-    "nombre": "Bateria Electronica Yamaha",
+    "nombre": "Batería Electrónica Yamaha",
     "precio": 630,
-    "imagen": "images/bateria-electrica.jpg"
+    "imagen": "images/bateria-electrica.jpg",
+    "descripcion": "Batería electrónica compacta con sonidos realistas, ideal para practicar en casa y grabar sin molestar."
   },
   {
     "id": 10,
-    "nombre": "Saxofon Yamaha",
+    "nombre": "Saxofón Yamaha",
     "precio": 700,
-    "imagen": "images/saxofon-yamaha.jpg"
+    "imagen": "images/saxofon-yamaha.jpg",
+    "descripcion": "Saxofón alto de fabricación japonesa, con excelente respuesta y sonido suave, ideal para jazz y clásico."
   }
 ]
+

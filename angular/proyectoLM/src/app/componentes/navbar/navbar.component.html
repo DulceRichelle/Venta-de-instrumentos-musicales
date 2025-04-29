@@ -15,17 +15,27 @@
           <a class="nav-link" routerLink="/catalogo" routerLinkActive="active">Tienda</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/ofertas" routerLinkActive="active">Ofertas</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contacto</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/about" routerLinkActive="active">Sobre Nosotros</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/login" routerLinkActive="active">Iniciar Sesión</a>
-        </li>
+
+        
+        <ng-container *ngIf="auth.estaAutenticado(); else noLogueado">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bienvenido, {{ auth.obtenerUsuarioActivo()?.nombre }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="logout()" routerLink="/home">Cerrar sesión</a>
+          </li>
+        </ng-container>
+
+        <ng-template #noLogueado>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/login" routerLinkActive="active">Iniciar Sesión / Registrarse</a>
+          </li>
+        </ng-template>
       </ul>
     </div>
   </div>

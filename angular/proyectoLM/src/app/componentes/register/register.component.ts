@@ -1,31 +1,30 @@
 import { Component } from '@angular/core';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { AuthService } from '../../servicios/auth.service';
+import { Router, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-register',
-  imports: [],
+  selector: 'app-registro',
+  standalone: true,
+  imports: [FormsModule, RouterModule],
   templateUrl: './register.component.html',
-  styleUrl: './register.component.css'
+  styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
-  registerForm: FormGroup;
+  nombre = '';
+  email = '';
+  password = '';
 
-  constructor(private fb: FormBuilder) {
-    this.registerForm = this.fb.group({
-      name: ['', Validators.required],
-      email: ['', [Validators.required, Validators.email]],
-      password: ['', Validators.required],
-      confirmPassword: ['', Validators.required],
-      terms: [false, Validators.requiredTrue]
-    }, { validators: this.passwordsMatchValidator });
+  constructor(private auth: AuthService, private router: Router) {}
 
-}
-
-
-
-  passwordsMatchValidator(form: FormGroup) {
-    const password = form.get('password')?.value;
-    const confirmPassword = form.get('confirmPassword')?.value;
-    return password === confirmPassword ? null : { mismatch: true };
+  registrarse() {
+    const exito = this.auth.registrar({ nombre: this.nombre, email: this.email, password: this.password });
+    if (exito) {
+      alert('Registro exitoso');
+      this.router.navigate(['/login']);
+    } else {
+      alert('Ese email ya está registrado');
+    }
   }
 }
+

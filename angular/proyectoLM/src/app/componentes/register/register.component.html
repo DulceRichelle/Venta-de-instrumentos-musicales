@@ -1,3 +1,18 @@
-<div *ngIf="registerForm.hasError('mismatch') && registerForm.get('confirmPassword')?.touched" class="text-danger">
-    Las contraseñas no coinciden.
+<div class="container mt-5">
+  <h2>Registro</h2>
+  <form (ngSubmit)="registrarse()">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" [(ngModel)]="nombre" name="nombre" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" [(ngModel)]="email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" [(ngModel)]="password" name="password" required>
+    </div>
+    <button class="btn btn-primary">Registrarse</button>
+  </form>
 </div>

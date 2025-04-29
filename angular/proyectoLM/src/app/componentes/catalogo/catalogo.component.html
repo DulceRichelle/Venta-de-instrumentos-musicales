@@ -3,11 +3,14 @@
   <div class="row">
     <div class="col-md-4 mb-4" *ngFor="let producto of listaProductos">
       <div class="card h-100 shadow-sm">
-        <img [src]="producto.imagen" class="card-img-top" alt="{{ producto.nombre }}">
+        <img [src]="producto.imagen" class="card-img-top img-fluid w-100 imagen-catalogo" alt="{{ producto.nombre }}">
         <div class="card-body d-flex flex-column justify-content-between">
           <h5 class="card-title">{{ producto.nombre }}</h5>
           <p class="card-text"><strong>Precio:</strong> {{ producto.precio }} €</p>
-          <button class="btn btn-outline-primary mt-2">Ver más</button>
+          <a [routerLink]="['/producto', producto.id]" class="btn btn-outline-primary mt-2">Ver más</a>
+          <button class="btn btn-outline-primary mt-2" (click)="anadirAlCarrito(producto)">
+            Añadir al carrito
+          </button>
         </div>
       </div>
     </div>

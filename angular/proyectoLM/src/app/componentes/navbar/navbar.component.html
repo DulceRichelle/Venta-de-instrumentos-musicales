@@ -21,7 +21,7 @@
           <a class="nav-link" routerLink="/about" routerLinkActive="active">Sobre Nosotros</a>
         </li>
 
-        
+
         <ng-container *ngIf="auth.estaAutenticado(); else noLogueado">
           <li class="nav-item">
             <a class="nav-link" href="#">Bienvenido, {{ auth.obtenerUsuarioActivo()?.nombre }}</a>
@@ -33,7 +33,11 @@
 
         <ng-template #noLogueado>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/login" routerLinkActive="active">Iniciar Sesión / Registrarse</a>
+            <a class="nav-link" routerLink="/login" routerLinkActive="active">Iniciar Sesión</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/register" routerLinkActive="active">Registrarse</a>
           </li>
         </ng-template>
       </ul>

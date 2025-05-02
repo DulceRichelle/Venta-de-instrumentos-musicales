@@ -1,20 +1,56 @@
 form {
   max-width: 600px;
   margin: 0 auto;
+  padding: 30px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 h2 {
   font-weight: bold;
-  color: #343a40;
+  color: #4b2e83; 
+  text-align: center;
 }
 
 input,
 textarea {
   border-radius: 8px;
   border: 1px solid #ced4da;
+  padding: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #4b2e83;
+  outline: none;
+  box-shadow: 0 0 5px rgba(75, 46, 131, 0.3);
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
 button {
+  background: linear-gradient(to right, #4b2e83, #6c63ff);
+  color: #fff;
+  border: none;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #3a246b, #594ae2);
+}
+
+@media (max-width: 576px) {
+  form {
+    padding: 20px;
+  }
 }

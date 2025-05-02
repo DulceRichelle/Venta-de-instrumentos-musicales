@@ -1,0 +1,79 @@
+/* Contenedor general */
+.container {
+    animation: fadeIn 0.7s ease-in;
+  }
+  
+  /* Animación de entrada */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Título principal */
+  h2 {
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  /* Lista del carrito */
+  .list-group-item {
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Título del producto */
+  h5 {
+    margin-bottom: 4px;
+    color: #34495e;
+  }
+  
+  /* Precio */
+  small {
+    color: #6c757d;
+  }
+  
+  /* Badge del precio */
+  .badge.bg-primary {
+    background-color: #0069d9;
+    font-size: 0.9rem;
+    padding: 0.5em 0.75em;
+  }
+  
+  /* Botón de eliminar */
+  .btn-danger {
+    font-size: 0.85rem;
+    padding: 5px 12px;
+    background-color: #c0392b;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e74c3c;
+  }
+  
+  /* Botón de vaciar carrito */
+  button.btn-danger:last-of-type {
+    background-color: #b22222;
+    border-radius: 6px;
+    font-weight: 500;
+  }
+  
+  button.btn-danger:last-of-type:hover {
+    background-color: #dc3545;
+  }
+  
+  /* Texto si el carrito está vacío */
+  .text-center {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
